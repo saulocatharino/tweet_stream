@@ -5,11 +5,11 @@ import oauth2 as oauth
 import urllib2 as urllib
 import json
 
-access_token_key = '142851656-wuNbUSpI3lIPIpTzfuwUBr7obqpPqcPMZrh41ON6'
-access_token_secret = '6CV5VBUuIfFpeelEUJHFASOdwxA4DGVIML5TrwcgxeFeV'
+access_token_key = ''
+access_token_secret = ''
 
-consumer_key = 'cMJWIvkDceU3S3TCCjr2PA'
-consumer_secret = 'nnYYK8gjIZGDefntmVnstVnv8x2ebp5mmdSgwNHg8SA'
+consumer_key = ''
+consumer_secret = ''
 
 _debug = 0
 
