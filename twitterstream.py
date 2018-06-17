@@ -48,7 +48,7 @@ def twitterreq(url, method, parameters):
   return response
 
 def fetchsamples():
-  url = "https://stream.twitter.com/1.1/statuses/filter.json?track=jair+bolsonaro"
+  url = "https://stream.twitter.com/1.1/statuses/filter.json?track=jair+bolsonaro" ## CHANGE HERE THE SEARCH
   parameters = []
   response = twitterreq(url, "GET", parameters)
   for line in response:
